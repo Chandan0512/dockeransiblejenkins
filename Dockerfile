@@ -10,4 +10,4 @@ FROM openjdk:8-alpine
  	 
  	WORKDIR $PROJECT_HOME
  	EXPOSE 8008
- 	CMD ["java" ,"-war","./dockeransible.war"]
+ 	CMD ["java" ,"-jar","./dockeransible.war"]
